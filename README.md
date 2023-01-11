@@ -52,6 +52,11 @@ The application will allow customers to place orders, each of which can consist 
 * POST /offers createOffer
 * GET /offers/{id} getOfferById
 
+Entity Diagram of Database looks like this:
+![image](https://user-images.githubusercontent.com/68821770/211881034-a393a082-1313-4be6-b4f8-34dbc1e6721f.png)
+ 
+### Offer Entity
+* Offers can be created, enable and disabled without restarting the server.
 
 ### Scope for reporting APIs
 Using the relationship between the entities in the application, following information can be queried by creating more reporting APIs
